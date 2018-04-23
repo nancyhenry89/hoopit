@@ -1,7 +1,7 @@
 @font-face{font-family:"uni";src:url(../fonts/uni.otf) format("truetype")}
 .mobile{display:none}
 img{max-width:100%;width:100%}
-.bg{background:url(../img/bg.jpg);background-size:cover;height:100%;color:#fff;min-height:780px}
+.bg{background:url(../img/bg.jpg);background-size:cover;height: auto;color:#fff;min-height: 850px;}
 .content{width:40%;margin-left:17%;padding-top:79px;min-width:525px}
 .title{font-size:49px;font-family:'uni',sans-serif;font-style:italic;margin-bottom:0;text-transform:uppercase}
 .title span{margin-bottom:6px;display:inline-block;background:#131d49;height:auto;line-height:49px;padding:6px 20px 6px 10px}
@@ -25,20 +25,20 @@ img{max-width:100%;width:100%}
 .content{  min-width: 600px;}
 }
 @media only screen and (max-width: 768px) {
-.bg{background:url(../img/mobBG.jpg);min-height:1113px;background-size:cover}
-.content{width: 100%;min-width: 0;margin-left:0;padding:0;padding-top: 27px;max-width: 500px;margin: auto;}
-.title span{font-size:34px;line-height:34px;margin-bottom: 8px;letter-spacing:.5px;margin-left:10px;padding: 3px 6px;}
+.bg{background:url(../img/mobBG.jpg);/* min-height: 860px; */background-size: cover;}
+.content{width: 100%;min-width: 0;margin-left:0;padding:0;padding-top: 27px;max-width: 500px;margin: auto;padding-bottom: 40px;}
+.title span{font-size: 29px;line-height:34px;margin-bottom: 8px;letter-spacing:.5px;margin-left:10px;padding: 3px 6px;}
 .sub-title{font-size:12px;margin-top:0;padding-left:12px}
 .desc{width:100%;font-size:17px;padding-left:22px;padding-right:5px}
 .icons{width:100%;margin:0;margin-top:20px;margin-bottom:10px}
 .icons>div{padding:0 12px}
 .icons .detail{font-size:15px;margin-top:10px;border:0;line-height:17px}
-.features{width:80%;margin-left:10%;margin-top:22px;padding-left:0;max-width:300px;position:relative;left:50%;margin-left:-150px;margin-bottom:31px}
+.features{/* width:80%; */margin-left:10%;margin-top:22px;padding-left:0;max-width:300px;position:relative;left:50%;margin-left:-150px;margin-bottom:31px;}
 .feature{font-size:15px;margin-bottom:5px;display:inline-block;text-align:center}
 .feature:nth-of-type(3){margin-left:70px}
 .mobile{display:block}
-.slogan.mobile{font-family:"lato";font-size:24px;font-style:normal;margin-bottom:-10px}
-.slogan{text-align:center}
+.slogan.mobile{font-family:"lato";font-size: 23px;font-style:normal;margin-bottom:-10px;}
+.slogan{text-align:center;font-size: 19px;}
 .download{width:230px;left:50%;position:relative;margin-left:-115px!important;display:block;margin-top:21px}
 .apple.download{margin-top:32px}
 .mobile img{width:500px;position:relative;left:50%;margin-left:-250px}
