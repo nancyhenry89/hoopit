@@ -26,10 +26,12 @@
     margin-bottom: 6px;
     display: inline-block;
     background: #131d49;
-    padding-top: 6px;
+    padding-top: 3px;
     padding-left: 10px;
     height: 55px;
     padding-right: 20px;
+    padding-bottom: 3px;
+    line-height: 55px;
 }
 
 .sub-title {
