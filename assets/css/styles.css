@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "uni";
+    src: url('../fonts/uni.otf') format("truetype");
+}
+.bg {
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+}
+.content {
+    width: 40%;
+    margin-left: 17%;
+    padding-top: 79px;
+    min-width: 525px;
+}
+
+.title {
+    font-size: 49px;
+    font-family: 'uni';
+    font-style: italic;
+    margin-bottom: 0;
+}
+.title span {
+    margin-bottom: 6px;
+    display: inline-block;
+    background: #131d49;
+    padding-top: 6px;
+    padding-left: 10px;
+    height: 55px;
+    padding-right: 20px;
+}
+
+.sub-title {
+    font-family: 'uni';
+    font-style: italic;
+    font-size: 16px;
+    word-spacing: 2px;
+    margin-top: 11px;
+    margin-bottom: 19px;
+}
+
+.desc {
+    font-size: 13px;
+    width: 67%;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+}
+.icons {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.icons .hand img {
+    width: 51px;
+}
+
+.icons .coin img {
+    width: 57px;
+}
+
+.icons .star img {
+    width: 58px;
+}
+
+.icons .icon {
+    text-align: center;
+    height: 70px;
+}
+
+.icons .detail {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid;
+    font-family: 'Lato', sans-serif;
+}
+.feature {
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    padding-right: 6px;
+    width: auto;
+    font-weight: lighter;
+    padding-left: 0;
+    word-spacing: 4px;
+}
+
+.features {
+    padding-left: 15px;
+    margin-bottom: 35px;
+}
+.feature:after{
+    content:"|";
+    padding-left: 6px;
+}
+.feature:last-of-type:after{
+    display:none
+
+}.slogan {
+    font-family: "uni";
+    font-size: 20px;
+    font-style: italic;
+    margin-left: -7px;
+}
+
+.download {
+    width: 126px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.apple.download {
+    margin-left: -9px;
+}
+
+.download img {
+    width: 100%;
+}
