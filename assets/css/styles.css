@@ -22,9 +22,7 @@ img{max-width:100%;width:100%}
 .apple.download{margin-left:-9px}
 .download img{width:100%}
 @media only screen and (max-width: 1024px) {
-.content{
-    min-width: 600px;
-}
+.content{  min-width: 600px;}
 }
 @media only screen and (max-width: 768px) {
 .bg{background:url(../img/mobBG.jpg);min-height:1113px;background-size:cover}
@@ -46,4 +44,6 @@ img{max-width:100%;width:100%}
 .mobile img{width:500px;position:relative;left:50%;margin-left:-250px}
 }
 @media only screen and (max-width: 767px) {
+.mobile img{width:100%;margin-left: 0;left: 0;}
+
 }
