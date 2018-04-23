@@ -1,124 +1,41 @@
-@font-face {
-    font-family: "uni";
-    src: url('../fonts/uni.otf') format("truetype");
-}
-.bg {
-    background: url('../img/bg.jpg');
-    background-size: cover;
-    height: 100%;
-    color: #fff;
-    min-height: 780px;
-}
-.content {
-    width: 40%;
-    margin-left: 17%;
-    padding-top: 79px;
-    min-width: 525px;
-}
-
-.title {
-    font-size: 49px;
-    font-family: 'uni',sans-serif;
-    font-style: italic;
-    margin-bottom: 0;
-    text-transform:  uppercase;
-}
-.title span {
-    margin-bottom: 6px;
-    display: inline-block;
-    background: #131d49;
-    padding-top: 6px;
-    padding-left: 10px;
-    height: auto;
-    padding-right: 20px;
-    padding-bottom: 6px;
-    line-height: 49px;
-}
-
-.sub-title {
-    font-family: 'uni',sans-serif;
-    font-style: italic;
-    font-size: 16px;
-    word-spacing: 2px;
-    margin-top: 11px;
-    margin-bottom: 19px;
-}
-
-.desc {
-    font-size: 13px;
-    width: 67%;
-    font-weight: lighter;
-    font-family: 'Lato', sans-serif;
-}
-.icons {
-    width: 80%;
-    margin-top: 10px;
-    margin-bottom: 26px;
-}
-
-.icons .hand img {
-    width: 51px;
-}
-
-.icons .coin img {
-    width: 57px;
-}
-
-.icons .star img {
-    width: 58px;
-}
-
-.icons .icon {
-    text-align: center;
-    height: 70px;
-}
-
-.icons .detail {
-    font-size: 11px;
-    text-align: center;
-    padding-top: 10px;
-    border-top: 1px solid;
-    font-family: 'Lato', sans-serif;
-}
-.feature {
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    padding-right: 6px;
-    width: auto;
-    font-weight: lighter;
-    padding-left: 0;
-    word-spacing: 4px;
-}
-
-.features {
-    padding-left: 15px;
-    margin-bottom: 35px;
-}
-.feature:after{
-    content:"|";
-    padding-left: 6px;
-}
-.feature:last-of-type:after{
-    display:none
-
-}.slogan {
-    font-family: "uni",sans-serif;
-    font-size: 20px;
-    font-style: italic;
-    margin-left: -7px;
-    text-transform: uppercase;
-}
-
-.download {
-    width: 126px;
-    display: inline-block;
-    margin-right: 8px;
-}
-
-.apple.download {
-    margin-left: -9px;
-}
-
-.download img {
-    width: 100%;
+@font-face{font-family:"uni";src:url(../fonts/uni.otf) format("truetype")}
+.mobile{display:none}
+img{max-width:100%;width:100%}
+.bg{background:url(../img/bg.jpg);background-size:cover;height:100%;color:#fff;min-height:780px}
+.content{width:40%;margin-left:17%;padding-top:79px;min-width:525px}
+.title{font-size:49px;font-family:'uni',sans-serif;font-style:italic;margin-bottom:0;text-transform:uppercase}
+.title span{margin-bottom:6px;display:inline-block;background:#131d49;height:auto;line-height:49px;padding:6px 20px 6px 10px}
+.sub-title{font-family:'uni',sans-serif;font-style:italic;font-size:16px;word-spacing:2px;margin-top:11px;margin-bottom:19px}
+.desc{font-size:13px;width:67%;font-weight:lighter;font-family:'Lato',sans-serif}
+.icons{width:80%;margin-top:10px;margin-bottom:26px}
+.icons .hand img{width:51px}
+.icons .coin img{width:57px}
+.icons .star img{width:58px}
+.icons .icon{text-align:center;height:70px}
+.icons .detail{font-size:11px;text-align:center;padding-top:10px;border-top:1px solid;font-family:'Lato',sans-serif}
+.feature{font-size:12px;font-family:'Lato',sans-serif;padding-right:6px;width:auto;font-weight:lighter;padding-left:0;word-spacing:4px}
+.features{padding-left:15px;margin-bottom:35px}
+.feature:after{content:"|";padding-left:6px}
+.feature:last-of-type:after{display:none}
+.slogan{font-family:"uni",sans-serif;font-size:20px;font-style:italic;margin-left:-7px;text-transform:uppercase}
+.download{width:126px;display:inline-block;margin-right:8px}
+.apple.download{margin-left:-9px}
+.download img{width:100%}
+@media only screen and (max-width: 767px) {
+.bg{background:url(../img/mobBG.jpg);min-height:1113px;background-size:cover}
+.content{width:100%;min-width:100%;margin-left:0;padding:0;padding-top: 7px;}
+.title span{font-size:34px;line-height:34px;margin-bottom: 8px;letter-spacing:.5px;margin-left:10px;padding: 3px 6px;}
+.sub-title{font-size:12px;margin-top:0;padding-left:12px}
+.desc{width:100%;font-size:17px;padding-left:22px;padding-right:5px}
+.icons{width:100%;margin:0;margin-top:20px;margin-bottom:10px}
+.icons>div{padding:0 12px}
+.icons .detail{font-size:15px;margin-top:10px;border:0;line-height:17px}
+.features{width:80%;margin-left:10%;margin-top:22px;padding-left:0;max-width:300px;position:relative;left:50%;margin-left:-150px;margin-bottom:31px}
+.feature{font-size:15px;margin-bottom:5px;display:inline-block;text-align:center}
+.feature:nth-of-type(3){margin-left:70px}
+.mobile{display:block}
+.slogan.mobile{font-family:"lato";font-size:24px;font-style:normal;margin-bottom:-10px}
+.slogan{text-align:center}
+.download{width:230px;left:50%;position:relative;margin-left:-115px!important;display:block;margin-top:21px}
+.apple.download{margin-top:32px}
 }
