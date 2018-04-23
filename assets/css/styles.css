@@ -17,7 +17,7 @@
 
 .title {
     font-size: 49px;
-    font-family: 'uni';
+    font-family: 'uni',sans-serif;
     font-style: italic;
     margin-bottom: 0;
 }
@@ -32,7 +32,7 @@
 }
 
 .sub-title {
-    font-family: 'uni';
+    font-family: 'uni',sans-serif;
     font-style: italic;
     font-size: 16px;
     word-spacing: 2px;
@@ -98,7 +98,7 @@
     display:none
 
 }.slogan {
-    font-family: "uni";
+    font-family: "uni",sans-serif;
     font-size: 20px;
     font-style: italic;
     margin-left: -7px;
