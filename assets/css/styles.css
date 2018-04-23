@@ -1,8 +1,8 @@
 @font-face{font-family:"uni";src:url(../fonts/uni.otf) format("truetype")}
 .mobile{display:none}
 img{max-width:100%;width:100%}
-.bg{background:url(../img/bg.jpg);background-size:cover;height: auto;color:#fff;min-height: 850px;}
-.content{width:40%;margin-left:17%;padding-top:79px;min-width:525px}
+.bg{background:url(../img/bg.jpg);background-size:cover;height: auto;color:#fff;min-height: 100%;}
+.content{width:40%;margin-left:17%;padding-top:79px;min-width: 549px;}
 .title{font-size:49px;font-family:'uni',sans-serif;font-style:italic;margin-bottom:0;text-transform:uppercase}
 .title span{margin-bottom:6px;display:inline-block;background:#131d49;height:auto;line-height:49px;padding:6px 20px 6px 10px}
 .sub-title{font-family:'uni',sans-serif;font-style:italic;font-size:16px;word-spacing:2px;margin-top:11px;margin-bottom:19px}
