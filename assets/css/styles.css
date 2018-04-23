@@ -21,9 +21,14 @@ img{max-width:100%;width:100%}
 .download{width:126px;display:inline-block;margin-right:8px}
 .apple.download{margin-left:-9px}
 .download img{width:100%}
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
+.content{
+    min-width: 600px;
+}
+}
+@media only screen and (max-width: 768px) {
 .bg{background:url(../img/mobBG.jpg);min-height:1113px;background-size:cover}
-.content{width:100%;min-width:100%;margin-left:0;padding:0;padding-top: 7px;}
+.content{width: 100%;min-width: 0;margin-left:0;padding:0;padding-top: 7px;max-width: 500px;margin: auto;}
 .title span{font-size:34px;line-height:34px;margin-bottom: 8px;letter-spacing:.5px;margin-left:10px;padding: 3px 6px;}
 .sub-title{font-size:12px;margin-top:0;padding-left:12px}
 .desc{width:100%;font-size:17px;padding-left:22px;padding-right:5px}
@@ -38,4 +43,7 @@ img{max-width:100%;width:100%}
 .slogan{text-align:center}
 .download{width:230px;left:50%;position:relative;margin-left:-115px!important;display:block;margin-top:21px}
 .apple.download{margin-top:32px}
+.mobile img{width:500px;position:relative;left:50%;margin-left:-250px}
+}
+@media only screen and (max-width: 767px) {
 }
